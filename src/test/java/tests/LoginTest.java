@@ -32,9 +32,9 @@ public class LoginTest extends BaseTest {
 	public Object[][] getData(){
 		
 		return new Object[][] {
-//			{"roomtest1@simplertrading.com","4IW6i8vINHxWD@1upABBOqxG"},
-//			{"roomtest2@simplertrading.com","tRqwQj&wZh%V4nN1pl2qCWz6"},
-//			{"roomtest3@simplertrading.com","GrGlGx2%Xu)h69H6f%lTZy4c"},
+			{"roomtest1@simplertrading.com","4IW6i8vINHxWD@1upABBOqxG"},
+			{"roomtest2@simplertrading.com","tRqwQj&wZh%V4nN1pl2qCWz6"},
+			{"roomtest3@simplertrading.com","GrGlGx2%Xu)h69H6f%lTZy4c"},
 			{"sharathkumar.rajendran+test@c.simplertrading.com","Sharath@123"}
 		};
 	}
