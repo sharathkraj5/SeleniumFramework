@@ -1,89 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-05T14:36:20 IST" name="Default suite" finished-at="2026-05-05T14:41:19 IST" duration-ms="299723">
+  <suite started-at="2026-05-05T15:47:54 IST" name="Default suite" finished-at="2026-05-05T15:48:14 IST" duration-ms="20086">
     <groups>
     </groups>
-    <test started-at="2026-05-05T14:36:20 IST" name="Default test" finished-at="2026-05-05T14:41:19 IST" duration-ms="299723">
+    <test started-at="2026-05-05T15:47:54 IST" name="Default test" finished-at="2026-05-05T15:48:14 IST" duration-ms="20086">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:36:20 IST" name="setup" finished-at="2026-05-05T14:37:17 IST" duration-ms="57340" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T15:47:54 IST" name="setup" finished-at="2026-05-05T15:48:07 IST" duration-ms="12848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:37:17 IST" name="testValidLogin" data-provider="LoginData2" finished-at="2026-05-05T14:37:58 IST" duration-ms="40721" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[roomtest1@simplertrading.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4IW6i8vINHxWD@1upABBOqxG]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:37:58 IST" name="teardown" finished-at="2026-05-05T14:37:58 IST" duration-ms="320" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:37:58 IST" name="setup" finished-at="2026-05-05T14:38:53 IST" duration-ms="54552" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:38:53 IST" name="testValidLogin" data-provider="LoginData2" finished-at="2026-05-05T14:39:13 IST" duration-ms="20224" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[roomtest2@simplertrading.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tRqwQj&wZh%V4nN1pl2qCWz6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:39:13 IST" name="teardown" finished-at="2026-05-05T14:39:13 IST" duration-ms="316" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:39:13 IST" name="setup" finished-at="2026-05-05T14:40:43 IST" duration-ms="90093" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:40:43 IST" name="testValidLogin" data-provider="LoginData2" finished-at="2026-05-05T14:41:02 IST" duration-ms="18330" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[roomtest3@simplertrading.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[GrGlGx2%Xu)h69H6f%lTZy4c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:41:02 IST" name="teardown" finished-at="2026-05-05T14:41:02 IST" duration-ms="292" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:41:02 IST" name="setup" finished-at="2026-05-05T14:41:11 IST" duration-ms="8941" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:41:11 IST" name="testValidLogin" data-provider="LoginData2" finished-at="2026-05-05T14:41:19 IST" duration-ms="8255" status="PASS">
+        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T15:48:07 IST" name="testValidLogin" data-provider="LoginData2" finished-at="2026-05-05T15:48:14 IST" duration-ms="6784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T14:41:19 IST" name="teardown" finished-at="2026-05-05T14:41:19 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6c6cb480]" started-at="2026-05-05T15:48:14 IST" name="teardown" finished-at="2026-05-05T15:48:14 IST" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
